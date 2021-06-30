@@ -55,7 +55,7 @@ git checkout develop
 
 
 
-————————————我自己的GitHub—————————————————————————————
+————————————我自己的GitHub——————————————————————
 
  github.com	445444376@qq.com	pxl121216772
 git config --global user.email"445444376@qq.com"
@@ -69,3 +69,5 @@ git remote add origin git@github.com:445444376/core.git
 ssh-keygen -t rsa -C "445444376@qq.com"
 ssh-agent bash
 ssh-add ~/.ssh/key
+
+git config --global credential.helper store 记录账号和用户名，避免每次都要输入密码
