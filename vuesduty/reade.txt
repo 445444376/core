@@ -51,14 +51,11 @@ git checkout release
 
 git checkout develop
 
-
-
-
-
-
-
-
 令牌GKD1F5a1V9PLZm6-4SCZ
+
+
+
+————————————我自己的GitHub—————————————————————————————
 
  github.com	445444376@qq.com	pxl121216772
 git config --global user.email"445444376@qq.com"
