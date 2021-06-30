@@ -1,1 +1,11 @@
 node_modules
+/.idea
+/.svn
+/storage
+.env
+.idea
+*.iml
+.gitignore
+/.gitignore
+/.env
+
