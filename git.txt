@@ -1,0 +1,74 @@
+﻿
+git@git.huijiaoyun.com:yyb/my-ashow-group/activity.git
+
+GIT gui 和 git bash
+
+1.设置core.autocrlf=false，windows也用LF换行。
+2.git config --global core.autocrlf false
+3.设置一个.editorconfig 来保证文件都是 LF 结尾。
+root =true
+[*]
+end_of_line=lf
+
+git config --global user.email"pengxiaolong@whty.com.cn"
+git config --global user.name"pengxiaolong"
+
+curl -H 'Authorization: token <7QxNqyxWuUAXuAssU4zc>'  https://git.huijiaoyun.com:10000/jysc/tkadmin.git
+
+
+git init
+git clone  https://git.huijiaoyun.com:10000/jysc/tkadmin.git
+git remote rm origin
+
+git remote add origin https://git.huijiaoyun.com:10000/jysc/tkadmin.git
+
+git add config/
+
+git commit -m "Initial commit"
+
+
+
+git push -u origin release
+
+git push -u origin develop
+删除远程文件
+git rm -r --cached .idea/
+
+
+
+错题本
+git remote rm origin
+git remote add origin https://git.huijiaoyun.com:10000/jysc/yy_tk.git
+git pull origin release
+切换分支
+1.创建
+git branch release
+git branch develop
+2.切换分
+
+git checkout release
+
+git checkout develop
+
+
+
+
+
+
+
+
+令牌GKD1F5a1V9PLZm6-4SCZ
+
+ github.com	445444376@qq.com	pxl121216772
+git config --global user.email"445444376@qq.com"
+git config --global user.name"445444376"
+
+
+git remote add origin https://github.com/445444376/core.git
+
+ssh-keygen -t rsa -C "445444376@qq.com"
+ssh-agent bash
+ssh-add ~/.ssh/key
+
+
+
